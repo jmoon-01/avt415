@@ -1,5 +1,8 @@
 @charset "UTF-8";
 body {
 	font-size:12pt;
-	background-color: #2012BF;
+	background-color: #d8f2ea;
+}
+h1 {
+	font-family: arial
 }
