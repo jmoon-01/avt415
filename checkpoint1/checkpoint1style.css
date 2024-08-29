@@ -2,7 +2,13 @@
 body {
 	font-size:12pt;
 	background-color: #d8f2ea;
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:50px;
 }
 h1 {
-	font-family: arial
+	font-family: arial;
+	padding-top: 50px;
+	padding-left:50px;
 }
