@@ -1,11 +1,7 @@
 @charset "UTF-8";
-header {
-	background-color:#25428d;
-}
 h1 {
 	text-align:center;
 	font-family:arial;
-	color:#f4f4f4;
 }
 body {
 	text-align:left;
@@ -16,13 +12,12 @@ body {
 	line-height:0px;
 }
 img {
-	width:200px;
-	height:200px;
+	width:800px;
+	height:800px;
 	object-fit:contain;
 }
 .container {
 	width:80%;
 	margin:auto;
 	overflow:hidden;
-	background-color:f4f4f4;
 }
