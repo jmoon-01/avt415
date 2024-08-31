@@ -1,5 +1,5 @@
 @charset "UTF-8";
-header{
+header {
 	background-color:#25428d;
 	padding:20px;
 }
@@ -15,7 +15,12 @@ body {
 	background-color: #d8f2ea;
 	margin:100px;
 }
-.container{
+img {
+	width:200px;
+	height:200px;
+	object-fit:contain;
+}
+.container {
 	width:80%;
 	margin:auto;
 	overflow:hidden;
