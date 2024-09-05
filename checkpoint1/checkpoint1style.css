@@ -10,13 +10,14 @@ h1 {
 }
 h3{
 	color:#006d77;
+	font-size: 32pt;
 }
 body {
 	text-align:left;
-	font-size:12pt;
+	font-size:15pt;
 	font-family:arial;
 	background-color: #d8f2ea;
-	margin:50px;
+	margin:150px;
 	line-height:auto;
 }
 img{
