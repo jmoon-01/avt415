@@ -1,6 +1,14 @@
 @charset "UTF-8";
-img{
-    width:600px;
-    height:600px;
-    object-fit:contain;
+li{
+    list-style: none;
+}
+.gallery{
+    width: 50;
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    grid-gap: 30px;
+}
+.gallery img{
+    width: 30%;
+    margin: 10px
 }
