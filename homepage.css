@@ -10,5 +10,43 @@ li{
 }
 .gallery img{
     width: 30%;
-    margin: 10px
+    margin: 10px;
+}
+h1{
+    color: #f2eee9;
+    font-size: 60pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h2{
+    color: #f2eee9;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: #f2eee9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left:20px;
+}
+body{ 
+    margin-left:10%;
+    margin-right:10%;
+    background-color:  #96ADD6;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    color:#f2eee9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+a {
+    color:#0063f7;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#fc1e86;
+    font-size: 18px;
 }
