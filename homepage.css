@@ -1,52 +1,65 @@
 @charset "UTF-8";
-li{
+li {
     list-style: none;
 }
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .gallery{
-    width: 50;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit);
     grid-gap: 30px;
 }
-.gallery img{
+.gallery img {
     width: 30%;
     margin: 10px;
 }
-h1{
-    color: #f2eee9;
-    font-size: 60pt;
+h1 {
+    color: #EB5EAA;
+    font-size: 80pt;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
     
 }
-h2{
-    color: #f2eee9;
+h2 {
+    color: #DB812D;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h3{
-    color: #f2eee9;
+h3 {
+    color: #db812d;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     padding-left:20px;
 }
-body{ 
+body { 
     margin-left:10%;
     margin-right:10%;
-    background-color:  #96ADD6;
+    background-color:  #F5CE00;
 }
-p{
+    /*blue hex #96ADD6; beige/white hex #f2eee9*/
+p {
     font-family: Arial, Helvetica, sans-serif;
 }
-li{
-    color:#f2eee9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+li {
+    color:#DB812D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
 }
 a {
-    color:#0063f7;
+    color:#4CAC44;
     text-decoration: none;
 }
 
 a:hover {
-    color:#fc1e86;
+    color:#EB5EAA;
     font-size: 18px;
+    text-decoration-line: underline;
 }
