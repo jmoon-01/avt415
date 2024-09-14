@@ -1,6 +1,6 @@
 @charset "UTF-8";
 li {
-    list-style: none;
+    list-style-type: none;
 }
 .column {
     float: left;
@@ -33,6 +33,7 @@ h2 {
     color: #DB812D;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 5px;
 }
 h3 {
     color: #db812d;
@@ -67,3 +68,14 @@ a:hover {
     font-size: 18px;
     text-decoration-line: underline;
 }
+.arrow{
+    color:#4CAC44;
+    opacity: 0;
+}
+li:hover .arrow {
+    opacity: 1;
+    color:#EB5EAA;
+}
+
+
+
