@@ -1,15 +1,7 @@
 @charset "UTF-8";
-li {
-    list-style-type: none;
-}
 .column {
     float: left;
     width: 50%;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 .gallery{
     width: 100%;
@@ -27,7 +19,6 @@ h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;
     line-height: 0px;
-    
 }
 h2 {
     color: #DB812D;
@@ -56,7 +47,8 @@ p {
 li {
     color:#DB812D;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 0px;
+    padding: none;
+    list-style-type: none;
 }
 a {
     color:#4CAC44;
@@ -66,7 +58,6 @@ a {
 a:hover {
     color:#EB5EAA;
     font-size: 18px;
-    text-decoration-line: underline;
 }
 .arrow{
     color:#4CAC44;
