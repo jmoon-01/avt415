@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4: Birthday Card</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <span class="happy"><h1>Happy...</h1></span>
+    <span class="birthday"><h1>Birthday!</h1></span>
+    <div class="interaction">
+     <img src="images/birthdaycake.png" alt="Pink Cake" class="confetti-button">
+         <!-- Cake image by iconicbestiary on Freepik-->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script>
+        const interaction=document.querySelector(".confetti-button");
+       interaction.addEventListener("click", () => {
+            confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { y: 0.6 },
+            })
+        });
+    </script>
+</body>
+</html>

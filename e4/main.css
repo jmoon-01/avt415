@@ -1,0 +1,59 @@
+
+body { 
+    background-color:  #F5CE00;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    margin-top: 35vh;
+}
+.happy{
+    display:none;
+}
+.birthday{
+   display: block;
+}
+img {
+    height: 300px;
+    align-items: center;
+}
+img:hover{
+    cursor: pointer;
+}
+.interaction{
+    display:block;
+    text-align:center;
+}
+button {
+    height: 45px;
+    width: 100px;
+    font-size: 18px;
+    background-color:aquamarine;
+    cursor: pointer;
+}
+button:hover{
+    background: pink;
+    font-size: larger;
+}
+
+@media screen and (min-width:768px){
+    body{
+        background-color: pink;
+    }
+    .happy{
+        display:block;
+    }
+    .birthday{
+       display: none;
+    }
+    .interaction{
+        display:none
+    }
+    h1{
+        font-size: 80px;
+    }
+
+}
