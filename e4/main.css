@@ -3,12 +3,18 @@ body {
     background-color:  #F5CE00;
 }
 h1{
-    font-family:Arial, Helvetica, sans-serif;
     font-size: 100px;
     letter-spacing: 1px;
-    color: white;
+    color: dodgerblue;
     text-align: center;
     margin-top: 35vh;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+a:hover h1, a {
+    color: hotpink;
+    text-decoration: none;
 }
 .happy{
     display:none;
@@ -40,6 +46,10 @@ button:hover{
 }
 
 @media screen and (min-width:768px){
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
     body{
         background-color: pink;
     }
